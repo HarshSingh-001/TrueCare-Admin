@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+
+@theme {
+  --color-primary: #2CAEB5;  /* green */  
+}
+
+
+::-webkit-scrollbar{
+  @apply hidden;
+}
