@@ -2,11 +2,17 @@
 
 
 
+
 @theme {
   --color-primary: #2CAEB5;  /* green */  
 }
 
 
 ::-webkit-scrollbar{
-  @apply hidden;
+  @apply hidden
+}
+
+
+body {
+  font-family: 'Outfit', sans-serif;
 }
